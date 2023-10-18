@@ -47,7 +47,7 @@
 
 ## Acesso ao projeto
 
-<p>A página está disponivel via GitHub Pages no link: <a>https://vitorhugozj.github.io//</a></p>
+<p>A página está disponivel via GitHub Pages no link: <a>https://github.com/vitorhugozj/valorantApi</a></p>
 
 
 
