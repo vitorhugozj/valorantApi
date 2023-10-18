@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    width: 100vw;
+    height: 200vh;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    grid-template-rows: 100vh 85vh 1fr;
+}
+
+header{
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    height: 11rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: flex-end;
+    padding-right: 5rem;
+    align-items: center;
+}
+nav span{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.saudacao{
+    width: 48rem;
+    padding-left: 7rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+}
+
+.saudacao h1{
+    color: white;
+    font-size: 5rem;
+}
+p {
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+p a{
+    color: red;
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+}
+
+.saudacao div {
+    height: 5rem;
+    width: 16rem;
+    background-color: #B22222;
+    border-radius: 16px;
+    color: white;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+main{
+    background-color: #302e2e;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.features h2{
+    color: white;
+    border-bottom: solid 1px white;
+    width: 18rem;
+    place-self: center;
+    font-size: 3rem;
+}
+
+.opcoes{
+    display: grid;
+    grid-template-areas: 
+    "agentes parceiro cartoes"
+    "compras modos mapas"
+    "titulos temporadas armas";
+    grid-template-columns: 30rem 30rem;
+    grid-template-rows: 13rem 13rem;
+    justify-content: center;
+}
+.quadrado{
+    height: 12rem;
+    width: 22rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.quadrado h3{
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+}
+
+.quadrado img{
+    height: 4rem;
+    width: 4rem;
+}
+
+.quadrado span{
+    font-size: 0.7rem;
+}
+
+footer{
+    background-color: #B22222;
+    height: 100%;  
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.direitos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40rem;
+}
+.direitos span{
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.direitos p{
+    font-size: 0.8rem;
+}
+
+.redesSocias{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.redesSocias img{
+    height: 2rem;
+}
