@@ -11,7 +11,7 @@ function criarTagImg(imagem) {
     const galeria = document.getElementById('personagens');
     const tagImg = document.createElement('img');
     tagImg.src = imagem.displayIcon;
-    tagImg.addEventListener('click', function() {
+    tagImg.addEventListener('mouseover', function() {
         // Função a ser executada quando a imagem é clicada
         console.log('Imagem com ID ' + imagem.uuid + ' foi clicada.');
         const galeria_info = document.getElementById('personagem_imagem');
